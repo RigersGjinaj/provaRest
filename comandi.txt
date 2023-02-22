@@ -1,0 +1,6 @@
+curl -X POST -H "Content-Type: application/json" -d '{"name":"FINANCIAL"}' localhost:8080/rest/department/create.php 
+
+curl -X PUT -H "Content-Type: application/json" -d '{"id":10,"name":"ADMINISTRATION"}' localhost:8080/rest/department/update.php
+
+curl -X DELETE localhost:8080/rest/department/delete.php?id=30
+
